@@ -8,7 +8,7 @@ This repo was forked from [paxtonhare's original repo](https://github.com/paxton
 
 ## Requirements
 
-- `minikube` must be installed -tested only on MacOS and Linux.
+- `minikube` must be installed - tested only on MacOS and Linux.
 
 ## Features
 - Simulates typing. It looks like you are actually typing out commands
