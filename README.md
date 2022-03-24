@@ -2,10 +2,20 @@
 
 demo-magic.sh is a handy shell script that enables you to script repeatable demos in a bash environment so you don't have to type as you present. Rather than trying to type commands when presenting you simply script them and let demo-magic.sh run them for you.
 
+## Info
+
+This repo was forked from [paxtonhare's original repo](https://github.com/paxtonhare/demo-magic).
+
 ## Features
 - Simulates typing. It looks like you are actually typing out commands
 - Allows you to actually run commands or pretend to do so.
 - Can hide commands from presentation. Useful for behind the scenes stuff that doesn't need to be shown.
+
+## Added files for use with the Kubernetes Demo:
+
+- minikube-destroy-all.sh - will destroy all minikube and all resources that go with it.
+- minikube-setup.sh - will destroy all minikube and all resources that go with it, then build minikube with Ingress, Load Balancer, and kube proxy.
+- k8s-demo.sh - the script for the actual demo-magic commands with the Kubernetes demo.
 
 ## Functions
 
